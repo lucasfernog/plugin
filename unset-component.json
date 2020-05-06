@@ -1,0 +1,16 @@
+{
+  "layout": [{
+      "content": "Address: {{ address }}"
+    },
+    {
+      "component": "Button",
+      "content": "Button text",
+      "events": {
+        "click": {
+          "call": "getAddress",
+          "assignTo": "address"
+        }
+      }
+    }
+  ]
+}
