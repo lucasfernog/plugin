@@ -8,7 +8,8 @@
       "content": "Button text",
       "events": {
         "click": {
-          "call": "getAddress",
+          "call": "generateAddress",
+          "args": ["RVORZ9SIIP9RCYMREUIXXVPQIPHVCNPQ9HZWYKFWYWZRE9JQKG9REPKIASHUUECPSQO9JT9XNMVKWYGVA"],
           "assignTo": "address"
         }
       }
